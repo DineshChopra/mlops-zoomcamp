@@ -15,6 +15,8 @@ Once you installed the package, run the command `mlflow --version` and check the
 
 What's the version that you have?
 
+`2.3.2`
+
 
 ## Q2. Download and preprocess the data
 
@@ -43,7 +45,7 @@ So what's the size of the saved `DictVectorizer` file?
 * 54 kB
 * 154 kB
 * 54 MB
-* 154 MB
+* [X] 154 MB `response`
 
 
 ## Q3. Train a model with autolog
@@ -69,7 +71,7 @@ What is the value of the `max_depth` parameter:
 * 4
 * 6
 * 8
-* 10
+* [X] 10 `response`
 
 
 ## Launch the tracking server locally for MLflow
@@ -104,7 +106,7 @@ What's the best validation RMSE that you got?
 
 * 1.85
 * 2.15
-* 2.45
+* [X] 2.45 `response`
 * 2.85
 
 
@@ -124,7 +126,7 @@ Tips for MLflow:
 What is the test RMSE of the best model?
 
 * 1.885
-* 2.185
+* [X] 2.185 `response: 2.285`
 * 2.555
 * 2.955
 
@@ -133,7 +135,7 @@ What is the test RMSE of the best model?
 
 Now explore your best model in the model registry using UI. What information does the model registry contain about each model?
 
-* Version number
+* [X] Version number `response`
 * Source experiment
 * Model signature
 * All the above answers are correct
