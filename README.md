@@ -1,4 +1,6 @@
+# [mlops-zoomcamp by DataTalkClub](https://github.com/DataTalksClub/mlops-zoomcamp)
 # My Journery following the MLOPS ZoomCamp
+
 
 
 ![MLOPS](https://github.com/ayoub-berdeddouch/mlops-zoomcamp/raw/main/images/banner.png)
@@ -88,14 +90,6 @@
 
 
 
- 
-
-
-**Hint**
-
----
-
-__⌛ ✔️= Done__ ||  __⏳ ✖️= Not_DONE__
 
 
 #### Made with 💟 by [Dinesh Chopra](https://github.com/DineshChopra)
