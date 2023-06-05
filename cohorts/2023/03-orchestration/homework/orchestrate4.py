@@ -100,7 +100,7 @@ def train_best_model(
 
         y_pred = booster.predict(valid)
         rmse = mean_squared_error(y_val, y_pred, squared=False)
-        mlflow.log_metric(f"rmse {rmse:.2f}")
+        mlflow.log_metric("rmse", f"{rmse:.2f}")
 
         pathlib.Path("models").mkdir(exist_ok=True)
         with open("models/preprocessor.b", "wb") as f_out:
