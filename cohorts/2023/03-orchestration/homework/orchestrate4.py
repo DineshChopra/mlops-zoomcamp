@@ -10,6 +10,7 @@ import mlflow
 import xgboost as xgb
 from prefect import flow, task
 from prefect.artifacts import create_markdown_artifact
+from datetime import date
 
 
 @task(retries=3, retry_delay_seconds=2)
@@ -99,7 +100,7 @@ def train_best_model(
 
         y_pred = booster.predict(valid)
         rmse = mean_squared_error(y_val, y_pred, squared=False)
-        mlflow.log_metric("rmse", rmse)
+        mlflow.log_metric(f"rmse {rmse:.2f}")
 
         pathlib.Path("models").mkdir(exist_ok=True)
         with open("models/preprocessor.b", "wb") as f_out:
