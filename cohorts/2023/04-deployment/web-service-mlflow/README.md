@@ -6,8 +6,13 @@
 * Packaging the app to Docker
 
 ```bash
+pip install -r requirement.txt
+```
+
+```bash
 gunicorn --bind=0.0.0.0:9696 predict:app
 ```
+
 
 ```bash
 docker build -t ride-duration-prediction-service:v1 .
