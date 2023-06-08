@@ -3,13 +3,13 @@ import pandas as pd
 from flask import Flask, request, jsonify
 
 # Initialize MLFLOW
-MLFLOW_TRACKING_URI = 'http://127.0.0.1:5000'
-mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
+# MLFLOW_TRACKING_URI = 'http://127.0.0.1:5000'
+# mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
 
 # Load model as a PyFuncModel.
 RUN_ID = 'fe9c3b5aa055480fb3e605bce5be9b68'
-logged_model = f'runs:/{RUN_ID}/model'
-# logged_model = 'mlflow-artifacts:/1/fe9c3b5aa055480fb3e605bce5be9b68/artifacts/model'
+# logged_model = f'runs:/{RUN_ID}/model'
+logged_model = 'mlartifacts/1/fe9c3b5aa055480fb3e605bce5be9b68/artifacts/model'
 
 model = mlflow.pyfunc.load_model(logged_model)
 
