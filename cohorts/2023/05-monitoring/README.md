@@ -27,3 +27,18 @@ Password: admin
 Test `adminer` service on browser:
 http://localhost:3000
 
+## 5.3
+
+Activate conda environment in new terminal
+```bash
+conda activate py11
+```
+
+Down docker-compose
+```bash
+docker-compose down
+```
+
+Prepare notebook to prepare model and store reference validatioin dataset
+Create two directories, models, data
+
