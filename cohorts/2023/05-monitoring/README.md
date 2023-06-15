@@ -27,7 +27,7 @@ Password: admin
 Test `adminer` service on browser:
 http://localhost:3000
 
-## 5.3
+## 5.3 Prepare model and store reference dataset
 
 Activate conda environment in new terminal
 ```bash
@@ -41,4 +41,10 @@ docker-compose down
 
 Prepare notebook to prepare model and store reference validatioin dataset
 Create two directories, models, data
+
+## 5.4 Generate Evidently Report
+* ColumnDriftMetric
+* DatasetDriftMetric
+* DatasetMissingValuesMetric
+
 
