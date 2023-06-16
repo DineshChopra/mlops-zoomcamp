@@ -53,3 +53,6 @@ Create two directories, models, data
 ## 5.6 Evidently: Data Quality monitoring
 Save Grafanaa dashboard configuration, so that when we relaunch service our existing dashboard should load.
 
+## 5.7 Save Grafana Configuration
+
+## 5.8 Debugging with test suite and reports with Evidently
