@@ -51,3 +51,5 @@ Create two directories, models, data
 
 
 ## 5.6 Evidently: Data Quality monitoring
+Save Grafanaa dashboard configuration, so that when we relaunch service our existing dashboard should load.
+
