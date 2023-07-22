@@ -5,8 +5,8 @@
 # Reference
   * [Reference Git Repo](https://github.com/aws/amazon-sagemaker-examples/tree/main/end_to_end/fraud_detection)
 
-##Reference Youtube
-  * [Detecting fraudulent insurance claims](https://www.youtube.com/watch?v=KzvN7jOHWOE&list=PLJgojBtbsuc1i4OGxxsWHxY-KeAYUFFbe&index=26)
+## Reference Youtube
+  * [SageMaker Fridays Season 4, Episode 2 - Detecting fraudulent insurance claims](https://www.youtube.com/watch?v=KzvN7jOHWOE&list=PLJgojBtbsuc1i4OGxxsWHxY-KeAYUFFbe&index=26)
   * [SageMaker Fridays Season 4, Episode 6 - Automating an ML workflow for fraud detection](https://www.youtube.com/watch?v=WU0-B1tCKz0&list=PLJgojBtbsuc1i4OGxxsWHxY-KeAYUFFbe&index=16)
   * [SageMaker Fridays Season 4, Episode 10 - Using AutoML to build a fraud detection model](https://www.youtube.com/watch?v=7NA5aNrye0s&list=PLJgojBtbsuc1i4OGxxsWHxY-KeAYUFFbe&index=28)
 
