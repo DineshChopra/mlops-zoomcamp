@@ -89,7 +89,7 @@
 - [Data Engineering Zoomcamp - free 9-week course about Data Engineering](https://github.com/DataTalksClub/data-engineering-zoomcamp/)
 
 
-
+- [Homework timeline details](https://docs.google.com/spreadsheets/d/e/2PACX-1vRNTwA0Of1lyprYpn2YxU-l0gvNeq-up7g7ITB42nPf2gT9Qd3PTzqTmkjAZjk1s__r7D99CsJfcZEO/pubhtml?gid=0&single=true)
 
 
 #### Made with 💟 by [Dinesh Chopra](https://github.com/DineshChopra)

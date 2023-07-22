@@ -46,6 +46,7 @@ Create two directories, models, data
 * ColumnDriftMetric
 * DatasetDriftMetric
 * DatasetMissingValuesMetric
+* ColumnQuantileMetric
 
 ## 5.5 Creating database and tables for dummy metrics calculations
 
