@@ -64,7 +64,7 @@ In addition to the backend URI, we can also add an artifact root directory where
 
 ```
 mlflow ui --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns
-
+```
 
 ### MLflow Tracking Client API:
 
