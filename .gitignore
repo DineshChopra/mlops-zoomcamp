@@ -6,6 +6,7 @@
 
 *.html
 *.csv
+*.pkl
 
 .venv
 venv
