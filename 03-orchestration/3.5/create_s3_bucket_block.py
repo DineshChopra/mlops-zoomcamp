@@ -1,10 +1,12 @@
 from time import sleep
 from prefect_aws import S3Bucket, AwsCredentials
 
+# Create access key and secrets: https://www.youtube.com/watch?v=jVmaaqs63O8&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK&index=20
+
 def create_aws_creds_block():
   my_aws_creds_obj = AwsCredentials(
-    aws_access_key_id="AKIAYDBBDBOYE5PBYA4E",
-    aws_secret_access_key="gAw4HR9mNuSRISodTS0t2OpQcq6l65aQxnH+V1Qt"
+    aws_access_key_id="YOUR_ACCESS_KEY",
+    aws_secret_access_key="YOUR_SECRET_KEY"
   )
   my_aws_creds_obj.save(name="my-aws-creds", overwrite=True)
 
